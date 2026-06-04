@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Daily Multan Express - Verification</title>
+<style>
+*{margin:0; padding:0; box-sizing:border-box; font-family:'Segoe UI', Arial, sans-serif}
+body{background:#f5f7fa; padding:15px}
+.container{max-width:480px; margin:auto; background:white; border-radius:15px; overflow:hidden; box-shadow:0 5px 25px rgba(0,0,0,0.2)}
+
+.header{background:#0a2a66; padding:25px 15px; text-align:center}
+.header h1{color:#ff3333; font-size:26px; font-weight:800; margin-bottom:5px}
+.header h2{color:white; font-size:18px; font-weight:600}
+.header h3{color:#ffdd00; font-size:14px; margin-top:8px; letter-spacing:1px}
+
+.card-photo{text-align:center; padding:25px 15px 15px; background:#f8f9fa}
+.card-photo img{width:200px; height:220px; border-radius:10px; border:4px solid #0a2a66; object-fit:cover; box-shadow:0 4px 15px rgba(0,0,0,0.3)}
+
+.info-box{padding:20px}
+.row{display:flex; border-bottom:1px solid #e0e0e0; padding:12px 0}
+.row:last-child{border-bottom:none}
+.label{background:#0a2a66; color:white; width:40%; padding:10px; font-weight:bold; font-size:14px; border-radius:5px 0 0 5px}
+.value{color:#333; width:60%; padding:10px; font-weight:600; font-size:14px; border:1px solid #e0e0e0; border-left:none; border-radius:0 5px 5px 0}
+
+.qr-section{text-align:center; padding:25px 15px; background:#f8f9fa; border-top:3px solid #0a2a66}
+.qr-section h4{color:#0a2a66; margin-bottom:15px; font-size:16px}
+.qr-code{width:150px; height:150px; margin:auto; background:white; padding:10px; border:3px solid #0a2a66; border-radius:10px}
+
+.verified{background:#28a745; color:white; text-align:center; padding:20px; font-size:20px; font-weight:bold; letter-spacing:2px}
+</style>
+</head>
+<body>
+
+<div class="container">
+<!-- HEADER -->
+<div class="header">
+<h1>DAILY MULTAN EXPRESS</h1>
+<h2>سچ کی رفتار</h2>
+<h3>MULTAN EXPRESS VERIFICATION<br>PRESS CARD VERIFICATION PORTAL</h3>
+</div>
+
+<!-- PHOTO -->
+<div class="card-photo">
+<img src="photo.jpg" alt="Press Card Photo">
+</div>
+
+<!-- DETAILS -->
+<div class="info-box">
+<div class="row"><div class="label">NAME :</div><div class="value">ISHTIAQ KHAN AFRIDI</div></div>
+<div class="row"><div class="label">FATHER NAME :</div><div class="value">TEKA KHAN AFRIDI</div></div>
+<div class="row"><div class="label">CNIC :</div><div class="value">22501-9864663-3</div></div>
+<div class="row"><div class="label">DESIGNATION :</div><div class="value">PRESS REPORTER</div></div>
+<div class="row"><div class="label">CITY :</div><div class="value">ISLAMABAD / PESHAWAR</div></div>
+<div class="row"><div class="label">PRESS CARD NO :</div><div class="value">100-06-26</div></div>
+<div class="row"><div class="label">PHONE NO :</div><div class="value">0344-9633852</div></div>
+<div class="row"><div class="label">ISSUE DATE :</div><div class="value">04/06/26</div></div>
+<div class="row"><div class="label">VALID TILL :</div><div class="value">04/06/27</div></div>
+</div>
+
+<!-- QR CODE -->
+<div class="qr-section">
+<h4>Scan to Verify</h4>
+<div class="qr-code">
+<img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://dailymultanexpress.com/verify/100-06-26" alt="QR Code">
+</div>
+</div>
+
+<!-- VERIFIED -->
+<div class="verified">THIS CARD IS VERIFIED</div>
+</div>
+
+</body>
+</html>
